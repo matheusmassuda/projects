@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu-hamburguer-responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>&#127828;MENU HAMBURGUER &#127828;</h1>
+        <i class="material-icons" id="burguer" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#ihistoria">Sobre</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Tecnologias</a></li>
+                <li><a href="#">Conversar</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article id="ihistoria">
+            <h1>Sobre</h1>
+            <p>A criação de <span>menus</span> deve ser feita de maneira otimizada para diferentes <span>tamanhos de tela.</span> Um tipo de menu que costuma funcionar bem para celulares e outros dispositivos móveis é o <strong>menu hamburguer</strong>.</p>
+            <p>Ele funciona basicamente como um botão que pode revelar ou ocultar mais opções de botões (para baixo ou para os lados), e geralmente é representado por um ícone com três linhas, uma em cima da outra. "☰"</p>
+        </article>
+
+        <article>
+            <h2>HTML e CSS  &#128104;&#8205;&#128187;</h2>
+            <p>A maneira mais prática de criá-lo é usando importações de tags <span>&lt;link&gt;</span> e <span>&lt;i&gt;</span> do Google.</p>
+        </article>
+
+        <article>
+            <h2>&#128104;&#8205;&#127979; - (JavaScript)</h2>
+            <p>“itens” é o id=”itens” da tag que contém todos os elementos clicáveis do menu. Esse JS considera a seguinte sentença: Se o modo de visualização do menu for block, então “onclick” coloque como none, senão coloque o display como block</p>
+            <img src="img/javascript-menu-hamburguer.jpg" alt="">
+        </article>
+    </main>
+</body>
+</html>

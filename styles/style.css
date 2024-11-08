@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+:root {
+    --main-color: #000515;
+    --secondary-color: #010715;
+    --tertiary-color: #97a6c4;
+    --quaternaryary-color: #b9f5d8;
+
+
+    --text-menu-color: #000515; 
+    --text-title-color: #000515;
+    --text-paragraph-color: #000000;
+
+    --variant-color: #e1e9f9;
+    --variant-color-two: #ffa400;
+
+    --font-size-one: 1.8em;
+}
+
+/*[Mobile First Version]*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: lightgray;
+}
+
+header {
+    background: var(--main-color);
+}
+
+header > h1 {
+    color: var(--variant-color);
+    font-size: var(--font-size-one);
+    padding: 20px 0;
+    text-align: center;
+}
+
+i#burguer {
+    text-align: center;
+    background: var(--quaternaryary-color);
+    color: var(--main-color);
+    width: 100vw;
+    padding: 8px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    background: var(--quaternaryary-color);
+    transform: scale(1.04);
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background: var(--tertiary-color);
+    color: var(--text-menu-color);
+    font-weight: 600;
+    text-align: center;
+    border-top: 2px solid gray;
+}
+
+
+menu > ul > li > a:hover {
+    background: var(--quaternaryary-color);
+    transform: scale(1.05);
+}
+
+main {
+    width: 92vw;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+article {
+    padding: 15px;
+    margin: 20px 0 0 0;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, .22);
+}
+
+article > h1, h2 {
+    text-indent: 20px;
+    padding: 20px 0 30px 0;
+}
+
+article > p {
+    text-align: justify;
+    margin:0 0 20px 0 ;
+    padding: 0 20px;
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+article > img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
